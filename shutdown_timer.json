@@ -1,0 +1,19 @@
+{
+  "_comment": "Shutdown timer config. Changes are picked up on the next cycle automatically.",
+  "_help": {
+    "enabled": "true/false — master switch",
+    "disable_mode": "none | permanent | this_boot",
+    "boot_session_id": "auto-managed, do not edit",
+    "delay_hours": "hours between shutdown checks",
+    "dialog_timeout_seconds": "seconds the popup stays open before auto-dismissing",
+    "headless_grace_seconds": "seconds to wait before shutdown when no user is logged in",
+    "shutdown_warning_seconds": "OS shutdown /t grace period after command is issued"
+  },
+  "enabled": true,
+  "disable_mode": "none",
+  "boot_session_id": "",
+  "delay_hours": 1,
+  "dialog_timeout_seconds": 60,
+  "headless_grace_seconds": 600,
+  "shutdown_warning_seconds": 60
+}

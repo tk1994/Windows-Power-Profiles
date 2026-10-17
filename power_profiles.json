@@ -1,0 +1,31 @@
+{
+  "_comment": "Each profile is a clone of its base_scheme. Only add settings you want to OVERRIDE from the base. Leave settings empty to use the base scheme values as-is.",
+  "_settings_help": {
+    "timeout values": "in minutes. 0 = never",
+    "processor_min/max": "percentage 0-100",
+    "usb_selective_suspend": "0 = disabled, 1 = enabled",
+    "hibernate": "0 = disabled, 1 = enabled. Applied only when profile is activated, not at sync time",
+    "wifi_power_save": "0 = max performance, 1 = low power, 2 = medium power, 3 = max power save",
+    "lid/button actions": "0 = do nothing, 1 = sleep, 2 = hibernate, 3 = shut down"
+  },
+  "profiles": [
+    {
+      "name": "Performance",
+      "description": "Clone of High Performance defaults. Add overrides in settings if needed.",
+      "base_scheme": "8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c",
+      "settings": {}
+    },
+    {
+      "name": "Balanced",
+      "description": "Clone of Balanced defaults. Add overrides in settings if needed.",
+      "base_scheme": "381b4222-f694-41f0-9685-ff5bb260df2e",
+      "settings": {}
+    },
+    {
+      "name": "Battery Saver",
+      "description": "Clone of Power Saver defaults. Add overrides in settings if needed.",
+      "base_scheme": "a1841308-3541-4fab-bc81-f71556f20b4a",
+      "settings": {}
+    }
+  ]
+}
